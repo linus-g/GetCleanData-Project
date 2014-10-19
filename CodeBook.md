@@ -7,6 +7,10 @@ Data set description
 
 This codebook describes the data set in datasummary.txt, produced by the run_analysis.R script.
 
+Each line in the file contains one observation, and the file can be read by R using the following code:
+
+df <- read.table("datasummary.txt", header=TRUE)
+
 This data set contains smartphone accelerometer and gyroscope measurements from 30 subjects performing activities of daily living. During measurement, the subjects were carrying a waist-mounted smartphone with embedded inertial sensors.
 
 The original data is the Human Activity Recognition Using Smartphones Data Set from the UCI Machine Learning Repository. Much of the information below was taken from the 'features.txt' document provided with the original data set.
